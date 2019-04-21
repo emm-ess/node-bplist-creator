@@ -2,7 +2,7 @@
 
 // adapted from http://code.google.com/p/plist/source/browse/trunk/src/main/java/com/dd/plist/BinaryPropertyListWriter.java
 
-var streamBuffers = require("stream-buffers");
+var DynamicBuffer = require('dynamic-buffer')
 
 var debug = false;
 
@@ -11,7 +11,7 @@ function Real(value) {
 }
 
 module.exports = function(dicts) {
-  var buffer = new streamBuffers.WritableStreamBuffer();
+  var buffer = new DynamicBuffer();
   buffer.write(new Buffer("bplist00"));
 
   if (debug) {

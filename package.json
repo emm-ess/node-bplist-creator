@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nearinfinity/node-bplist-creator.git"
+    "url": "https://github.com/emm-ess/node-bplist-creator.git"
   },
   "keywords": [
     "bplist",
@@ -23,6 +23,6 @@
     "nodeunit": "0.9.1"
   },
   "dependencies": {
-    "stream-buffers": "~2.2.0"
+    "dynamic-buffer": "github:emm-ess/dynamic-buffer"
   }
 }
