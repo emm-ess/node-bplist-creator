@@ -15,7 +15,7 @@
     "plist",
     "creator"
   ],
-  "author": "Joe Ferner",
+  "author": "Marten Schälicke",
   "license": "MIT",
   "devDependencies": {
     "bplist-parser": "~0.1.0",
